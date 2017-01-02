@@ -1,6 +1,6 @@
 # Elegant-Swift
 
-## :tada: `Map` - closure magic: 
+## :tada: Closure parameters omission magic: 
 
 ### Elegant:
 
