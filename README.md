@@ -1,4 +1,6 @@
-# Elegant-Swift
+<p align="center">
+  <img src="logo.png" alt="Elegant swift"/>
+</p>
 
 ## :tada: Closure parameters omission magic: 
 
