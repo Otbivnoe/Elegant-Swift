@@ -2,6 +2,10 @@
   <img src="logo.png" alt="Elegant swift"/>
 </p>
 
+### A list of elegant swift examples which highlight beauty and grace of swift language.
+### Do you have elegant idea? Please, [contribute](https://github.com/Otbivnoe/Elegant-Swift/pulls)! :+1:
+
+
 ## :tada: Closure parameters omission magic: 
 
 ### Elegant:
