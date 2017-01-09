@@ -19,7 +19,7 @@ let names = ["Carl", "Negan"]
 let persons = names.map(Person.init)
 ```
 
-### Bad:
+### Not Elegant:
 
 ``` swift 
 struct Person {
@@ -49,7 +49,7 @@ default: break
 }
 ```
 
-### Bad:
+### Not Elegant:
 
 ``` swift 
 func anyIsInt(any: Int) {}
