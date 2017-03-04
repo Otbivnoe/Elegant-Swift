@@ -32,9 +32,33 @@ let persons = names.map { name in
 }
 ```
 
+## :tada: `Get` omission: 
+
+### Elegant:
+
 ## :tada: `Switch` typecast magic:
 
 ### Elegant:
+
+```swift
+class User {
+    var age: Int {
+        return 20
+    }
+}
+```
+
+### Not Elegant:
+
+```swift
+class User {
+    var age: Int {
+        get {
+            return 20
+        }
+    }
+}
+```
 
 ``` swift
 func anyIsInt(any: Int) {}
