@@ -87,3 +87,17 @@ case is Int:    anyIsInt(any: any as! Int)
 default: break
 }
 ```
+
+## :tada: KVC, KVO keypath: 
+
+### Elegant:
+
+```swift
+addObserver(self, forKeyPath: #keyPath(text), options: .new, context: nil)
+```
+
+### Not Elegant:
+
+```swift
+addObserver(self, forKeyPath: "text", options: .new, context: nil)
+```
