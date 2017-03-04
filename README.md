@@ -36,10 +36,6 @@ let persons = names.map { name in
 
 ### Elegant:
 
-## :tada: `Switch` typecast magic:
-
-### Elegant:
-
 ```swift
 class User {
     var age: Int {
@@ -59,6 +55,10 @@ class User {
     }
 }
 ```
+
+## :tada: `Switch` typecast magic:
+
+### Elegant:
 
 ``` swift
 func anyIsInt(any: Int) {}
