@@ -101,3 +101,21 @@ addObserver(self, forKeyPath: #keyPath(text), options: .new, context: nil)
 ```swift
 addObserver(self, forKeyPath: "text", options: .new, context: nil)
 ```
+
+## :tada: Trailing closure: 
+
+### Elegant:
+
+```swift
+UIView.animate(withDuration: 0.3) {
+    view.frame = .zero
+}
+```
+
+### Not Elegant:
+
+```swift
+UIView.animate(withDuration: 0.3, animations: {
+    view.frame = .zero
+})
+```
