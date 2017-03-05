@@ -119,3 +119,19 @@ UIView.animate(withDuration: 0.3, animations: {
     view.frame = .zero
 })
 ```
+
+## :tada: Type omission: 
+
+### Elegant:
+
+```swift
+view.frame = .zero
+view.backgroundColor = .red
+```
+
+### Not Elegant:
+
+```swift
+view.frame = CGRect.zero
+view.backgroundColor = UIColor.red
+```
