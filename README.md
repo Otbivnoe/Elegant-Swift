@@ -8,7 +8,7 @@
 
 ## :tada: Closure parameters omission magic: 
 
-### Elegant:
+*Elegant*:
 
 ``` swift
 struct Person {
@@ -19,7 +19,7 @@ let names = ["Carl", "Negan"]
 let persons = names.map(Person.init)
 ```
 
-### Not Elegant:
+*Not Elegant*:
 
 ``` swift 
 struct Person {
@@ -34,7 +34,7 @@ let persons = names.map { name in
 
 ## :tada: `Get` omission: 
 
-### Elegant:
+*Elegant*:
 
 ```swift
 class User {
@@ -44,7 +44,7 @@ class User {
 }
 ```
 
-### Not Elegant:
+*Not Elegant*:
 
 ```swift
 class User {
@@ -58,7 +58,7 @@ class User {
 
 ## :tada: `Switch` typecast magic:
 
-### Elegant:
+*Elegant*:
 
 ``` swift
 func anyIsInt(any: Int) {}
@@ -73,7 +73,7 @@ default: break
 }
 ```
 
-### Not Elegant:
+*Not Elegant*:
 
 ``` swift 
 func anyIsInt(any: Int) {}
@@ -90,13 +90,13 @@ default: break
 
 ## :tada: KVC, KVO keypath: 
 
-### Elegant:
+*Elegant*:
 
 ```swift
 addObserver(self, forKeyPath: #keyPath(text), options: .new, context: nil)
 ```
 
-### Not Elegant:
+*Not Elegant*:
 
 ```swift
 addObserver(self, forKeyPath: "text", options: .new, context: nil)
@@ -104,7 +104,7 @@ addObserver(self, forKeyPath: "text", options: .new, context: nil)
 
 ## :tada: Trailing closure: 
 
-### Elegant:
+*Elegant*:
 
 ```swift
 UIView.animate(withDuration: 0.3) {
@@ -112,7 +112,7 @@ UIView.animate(withDuration: 0.3) {
 }
 ```
 
-### Not Elegant:
+*Not Elegant*:
 
 ```swift
 UIView.animate(withDuration: 0.3, animations: {
@@ -122,14 +122,14 @@ UIView.animate(withDuration: 0.3, animations: {
 
 ## :tada: Type omission: 
 
-### Elegant:
+*Elegant*:
 
 ```swift
 view.frame = .zero
 view.backgroundColor = .red
 ```
 
-### Not Elegant:
+*Not Elegant*:
 
 ```swift
 view.frame = CGRect.zero
