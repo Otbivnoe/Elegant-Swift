@@ -102,6 +102,28 @@ addObserver(self, forKeyPath: #keyPath(text), options: .new, context: nil)
 addObserver(self, forKeyPath: "text", options: .new, context: nil)
 ```
 
+## :tada: `Map` technic: 
+
+*Elegant*:
+
+```swift
+func makeUsers(withNames names: [String]) -> [User] {
+    return names.map(User.init)
+}
+```
+
+*Not Elegant*:
+
+```swift
+func makeUsers(withNames names: [String]) -> [User] {
+    var users = [User]()
+    for name in names {
+        users.append(User(name: name)
+    }
+    return users
+}
+```
+
 ## :tada: Trailing closure: 
 
 *Elegant*:
